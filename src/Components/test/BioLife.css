@@ -1,0 +1,74 @@
+.biolife-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .biolife-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .biolife-header h2 {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  .biolife-why-choose {
+    margin: 40px 0;
+  }
+  
+  .biolife-why-choose h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .stat-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .stat-label {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .biolife-description {
+    margin: 40px 0;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  .biolife-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .biolife-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .biolife-footer h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 40px;
+  }

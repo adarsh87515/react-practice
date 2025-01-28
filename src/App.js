@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+
+import "./App.css";
+import Accordian from "./Components/accordian";
+import Weather from "./Components/weatherApp/weather";
+import RecipeApplication from "./Components/RECIPE-APP";
+import ShoppingCartApp from "./Components/shoppingCart/ShoppingCartApp";
+import BlogApp from "./Components/MERN_Blog_App/BlogApp";
+import RandomColor from "./Components/random-color/RandomColor";
+import StarRating from "./Components/star-rating/StarRating";
+import ImageSlider from "./Components/Image-slider/ImageSlider";
+import LoadMoreData from "./Components/Load-more-data/LoadMoreData";
+import MenuView from "./Components/Menu_view/MenuView";
+import menus from "./Components/Menu_view/data";
+import QRCodeGenerate from "./Components/QRCodeGenerate/QRCodeGenerate";
+import ThemeChange from "./Components/Theme Change/ThemeChange";
+import BioLife from "./Components/test/BioLife";
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      {/* <Accordian/> */}
+      {/* <Weather/> */}
+      {/* <RecipeApplication/> */}
+      {/* <ShoppingCartApp/> */}
+      {/* <BlogApp/> */}
+      {/* <RandomColor/> */}
+      {/* <StarRating noOfStars={5}/> */}
+      {/* <ImageSlider/> */}
+      {/* <LoadMoreData/> */}
+      {/* <MenuView menus={menus}/> */}
+      {/* <QRCodeGenerate/> */}
+      {/* <ThemeChange/> */}
+      <BioLife/>
+
+
     </div>
   );
 }
