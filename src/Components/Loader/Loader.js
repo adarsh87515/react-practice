@@ -9,6 +9,7 @@ const Loader = () => {
         <div className="w-4 h-4 bg-blue-500 rounded-full"></div>
       </div>
     </div>
+  // this is just for git testing
   );
 };
 
