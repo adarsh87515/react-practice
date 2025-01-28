@@ -14,7 +14,7 @@ import MenuView from "./Components/Menu_view/MenuView";
 import menus from "./Components/Menu_view/data";
 import QRCodeGenerate from "./Components/QRCodeGenerate/QRCodeGenerate";
 import ThemeChange from "./Components/Theme Change/ThemeChange";
-import BioLife from "./Components/test/BioLife";
+
 
 function App() {
   
@@ -30,9 +30,9 @@ function App() {
       {/* <ImageSlider/> */}
       {/* <LoadMoreData/> */}
       {/* <MenuView menus={menus}/> */}
-      {/* <QRCodeGenerate/> */}
+      <QRCodeGenerate/>
       {/* <ThemeChange/> */}
-      <BioLife/>
+     
 
 
     </div>
