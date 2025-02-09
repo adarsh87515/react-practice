@@ -22,8 +22,8 @@ function App() {
     <div className="container">
       {/* <Accordian/> */}
       {/* <Weather/> */}
-      <RecipeApplication/>
-      {/* <ShoppingCartApp/> */}
+      {/* <RecipeApplication/> */}
+      <ShoppingCartApp/>
       {/* <BlogApp/> */}
       {/* <RandomColor/> */}
       {/* <StarRating noOfStars={5}/> */}

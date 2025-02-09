@@ -8,7 +8,7 @@ const CartNavbar = () => {
         <Link to={"/"}>
           <div className="ml-5 ">
             <h1 className="text-green-700  font-bold  text-xl sm:text-2xl md:text-3xl tracking-wide ">
-              Mahesh's Shopping Cart
+              Aishu's Shopping Cart
             </h1>
           </div>
         </Link>
