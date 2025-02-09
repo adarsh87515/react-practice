@@ -22,7 +22,7 @@ function App() {
     <div className="container">
       {/* <Accordian/> */}
       {/* <Weather/> */}
-      {/* <RecipeApplication/> */}
+      <RecipeApplication/>
       {/* <ShoppingCartApp/> */}
       {/* <BlogApp/> */}
       {/* <RandomColor/> */}
@@ -30,7 +30,7 @@ function App() {
       {/* <ImageSlider/> */}
       {/* <LoadMoreData/> */}
       {/* <MenuView menus={menus}/> */}
-      <QRCodeGenerate/>
+      {/* <QRCodeGenerate/> */}
       {/* <ThemeChange/> */}
      
 
